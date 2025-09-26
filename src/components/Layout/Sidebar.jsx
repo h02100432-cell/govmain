@@ -1,18 +1,5 @@
 import React from 'react';
-import { 
-  BarChart3, 
-  Map, 
-  Users, 
-  FileText, 
-  MessageSquare, 
-  Settings,
-  Home,
-  Activity,
-  Shield,
-  TrendingUp,
-  Calendar,
-  Database
-} from 'lucide-react';
+import { ChartBar as BarChart3, Map, Users, FileText, MessageSquare, Settings, Hop as Home, Activity, Shield, TrendingUp, Calendar, Database } from 'lucide-react';
 
 const Sidebar = ({ activeTab, setActiveTab, isMobileMenuOpen, onClose }) => {
   const menuItems = [
