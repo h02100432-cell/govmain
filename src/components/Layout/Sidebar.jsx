@@ -17,6 +17,7 @@ import {
 const Sidebar = ({ activeTab, setActiveTab, isMobileMenuOpen, onClose }) => {
   const menuItems = [
     { id: 'dashboard', label: 'Dashboard', icon: Home, description: 'Overview & metrics' },
+    { id: 'disease-analytics', label: 'Disease Analytics', icon: Activity, description: 'Disease insights & trends' },
     { id: 'analytics', label: 'Regional Analytics', icon: BarChart3, description: 'Data insights' },
     { id: 'field-operations', label: 'Field Operations', icon: Map, description: 'Staff & locations' },
     { id: 'policy-hub', label: 'Policy Hub', icon: FileText, description: 'Policies & guidelines' },

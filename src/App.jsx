@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Header from './components/Layout/Header';
 import Sidebar from './components/Layout/Sidebar';
 import Dashboard from './components/Dashboard/Dashboard';
+import DiseaseAnalyticsDashboard from './components/Dashboard/DiseaseAnalyticsDashboard';
 import RegionalAnalytics from './components/Analytics/RegionalAnalytics';
 
 // Placeholder components for other tabs
@@ -99,6 +100,8 @@ function App() {
     switch (activeTab) {
       case 'dashboard':
         return <Dashboard />;
+      case 'disease-analytics':
+        return <DiseaseAnalyticsDashboard />;
       case 'analytics':
         return <RegionalAnalytics />;
       case 'field-operations':
